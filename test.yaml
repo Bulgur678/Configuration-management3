@@ -1,0 +1,9 @@
+program:
+  - op: load
+    arg: 86
+  - op: read
+    arg: 806
+  - op: write
+    arg: 244
+  - op: shift_right
+    arg: 655
