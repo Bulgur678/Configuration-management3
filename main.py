@@ -101,6 +101,7 @@ def main():
     with open(args.output, 'wb') as f:
         f.write(binary)
 
+    print(f"Amount Commands: {len(program)}")
     print(f"\nBinary written to {args.output} ({len(binary)} bytes)")
 
 
